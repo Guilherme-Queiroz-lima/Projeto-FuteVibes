@@ -1,0 +1,18 @@
+/* .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 118px;
+    width: 100%;
+    background-color: green;
+    gap: 800px;
+  
+}
+  */
+.imagem img{
+    width: 183px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
