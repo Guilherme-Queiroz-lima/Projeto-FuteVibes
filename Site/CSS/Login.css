@@ -13,14 +13,7 @@ body {
    justify-content: center;
   
 }
-.video{
-    height: 100%;
-    width: 50%;
-}
-video{
-    height: 100%;
-    width: 100%;
-}
+
 .ArmazenamentoLogin{
     height: 70vh;
     width: 50%;
@@ -69,8 +62,13 @@ p{
 .inputs input{
  width: 50%;
  height: 3vh;
-border: 2px greenyellow solid;
-border-radius: 8px;
+border: none;               
+border-bottom: 2px solid green; 
+outline: none;              /* Remove o contorno ao clicar */
+background-color: transparent; 
+padding: 5px;               
+            
+font-size: 16px;        
    
 }
 .inputs p{

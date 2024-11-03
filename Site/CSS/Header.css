@@ -1,14 +1,29 @@
-/* .header{
+
+body{
+    margin: 0;
+    display: flex;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+}
+.header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content:center;
     height: 118px;
     width: 100%;
-    background-color: green;
-    gap: 800px;
+    background-color: white;
+    gap: 300px;
+    margin: 30px;
   
 }
-  */
+.abas{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+ 
 .imagem img{
     width: 183px;
 }
