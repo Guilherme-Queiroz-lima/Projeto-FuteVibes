@@ -20,9 +20,15 @@
             <div class="inputs">
                 <p>Coloque o seu email</p>
                 <input type="text" placeholder="Coloque o seu email"> <br>
-                
+              
                 <p>Coloque a sua senha</p>
-                <input type="text" placeholder="Coloque a sua senha">
+                <input type="password" id="input_senha" placeholder="Coloque a sua senha">
+                <button onclick="VerSenha()">
+                    Ver Senha
+                </button>
+
+              
+            
             </div>
     
             <div class="botao">
@@ -34,3 +40,13 @@
 </body>
 
 </html>
+<script>
+    function VerSenha(){
+    var InputSenha = input_senha
+    if(InputSenha.type=== "password"){
+        InputSenha.type = "text"
+    }else{
+        InputSenha.type = "password"
+    }
+    }
+</script>

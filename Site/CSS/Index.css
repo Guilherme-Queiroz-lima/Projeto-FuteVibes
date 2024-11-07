@@ -1,0 +1,158 @@
+.Futebol {
+    height: 539px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.futebol1 {
+    height: 539px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.futebol1 video {
+    height: 444px;
+    width: 80%;
+}
+
+.futebol2 {
+    height: 539px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.futebol2 .texto {
+    margin-top: -47px;
+    width: 100%;
+    height: 394px;
+    font-size: 30px;
+}
+
+.container {
+    background-color: rgba(28, 211, 40, 1);
+    height: 60vh;
+    width: 100%;
+    display: flex;
+}
+
+.container .filho2 {
+
+    height: 60vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container .filho2 p {
+    font-size: 54px;
+    width: 71%;
+    margin-top: 9vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.container .filho1 {
+    height: 60vh;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    background-color: gray;
+    height: 48vh;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.card2 {
+    background-color: gray;
+    height: 48vh;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.card3 {
+    background-color: gray;
+    height: 48vh;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.Sobre {
+    background-color: white;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+}
+
+.Sobre .filho {
+
+    height: 60vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Sobre .filho button{
+height: 15vh;
+width: 55%;
+background-color: rgba(28, 211, 40, 1);
+border-radius: 10px;
+border: none;
+}
+.Sobre .filho2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 50%;
+  
+} 
+.Sobre .filho2 .texto{
+    font-size: 180%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    margin-left: 20%;
+    margin-bottom: 20%;
+    font-size: 202%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Curiosidades{
+    background-color: rgba(28, 211, 40, 1);
+    height: 60vh;
+    width: 100%;
+    display: flex;
+}
+.Curiosidades .acessoCuriosidades{
+    background-color: blue;
+    height: 100%;
+    width: 70%;
+}
+.Curiosidades .texto{
+    background-color: aqua;
+    height: 100%;
+    width: 30%;
+}
