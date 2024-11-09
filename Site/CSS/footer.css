@@ -1,12 +1,62 @@
-/* .footer{
+.footer {
     height: 25vh;
     width: 100%;
-    background-color: rgba(28, 211, 40, 1);
+    background-color: rgba(133, 122, 44, 1);
+    display: flex;
+    flex-direction: row;
 }
-.faleConosco h1{
-    background-color: aqua;
+
+.faleConosco {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faleConosco h1 {
     margin: 0;
-    margin-bottom: 20%;
-    font-size: 202%;
+    font-size: 222%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-} */
+    width: 100%;
+    height: 50%;
+    margin-left: 20px;
+}
+
+.imagem {
+    background-image: url(../imagens/whatsap-removebg-preview.png);
+    height: 100%;
+    width: 20%;
+    background-size: 93%;
+    background-repeat: no-repeat;
+
+}
+
+.imagem2 {
+    background-image: url(../imagens/instagram-removebg-preview.png);
+    height: 69%;
+    width: 20%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 0%
+}
+.imagem3{
+    background-image: url(../imagens/site-removebg-preview.png);
+    height: 69%;
+    width: 20%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.footer .FuteVibes h1{
+    color: white;
+    font-family: 'ADLaM Display';
+    font-size: 280%;
+    height: 40%;
+    width: 30%;
+}
+.footer .vibes{
+    color: black;
+}
