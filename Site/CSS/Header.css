@@ -15,6 +15,7 @@ a{
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 3px gold solid;
 }
  .header h1{
     color: rgba(133, 122, 44, 1);
@@ -29,12 +30,13 @@ a{
     color: white;
 }
 .ParteCima{
-    height: 20%%;
+    height: 20%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16%;
+    border-bottom: 3px gold solid;
 }
 .ParteCima img{
     height: 100%;
@@ -57,6 +59,7 @@ a{
     border-radius: 20px;
 }
 .ParteBaixo{
+
     display: flex;
     flex-direction: column;
     width: 50%;

@@ -1,103 +1,70 @@
-.Futebol {
-    height: 539px;
+.Sobre{
+    height: 60vh;
     width: 100%;
-    background-color: white;
+    background-color: rgba(133, 122, 44, 1);
     display: flex;
     flex-direction: row;
-    border-top: 3px black solid;
+    border-bottom: 3px gold solid;
 }
-
-.futebol1 {
-    height: 539px;
+.Sobre .filho{
+    height: 100%;
     width: 50%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.futebol1 video {
-    height: 444px;
-    width: 80%;
-}
-
-.futebol2 {
-    height: 539px;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.futebol2 .texto {
-    margin-top: -47px;
-    width: 100%;
-    height: 394px;
-    font-size: 30px;
-}
-
-
-.Sobre {
-    background-color: rgba(28, 211, 40, 1);
-    height: 60vh;
-    width: 100%;
-    display: flex;
-    border: 3px black solid;
-}
-
-.Sobre .filho {
-
-    height: 60vh;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-
-}
-
-.Sobre .filho button {
-    height: 15vh;
-    width: 55%;
-    background-color: white;
-    border-radius: 10px;
-    border: none;
-}
-
-.Sobre .filho2 {
-    display: flex;
+    justify-content: start;
     align-items: center;
-    justify-content: center;
-    height: 60vh;
+    gap: 20px;
+}
+.Sobre .filho h1{
+    font-family: 'ADLaM Display';
+    font-size: 250%;
+    text-align: center;
+    color: white;
+
+}
+.Sobre .filho button{
+    height: 30%;
+    width: 40%;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px gold solid;
+    color: white;
+}
+.Sobre .filho button:hover{
+    height: 30%;
+    width: 40%;
+    background-color: gold;
+    border-radius: 20px;
+    border: 2px gold solid;
+    color: white;
+}
+.Sobre .filho2{
+    height: 100%;
     width: 50%;
-
+    display: flex;
 }
-
+.Sobre .filho2 .texto{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content:  start;
+color: white;
+}
 .Sobre .filho2 .texto {
-    font-size: 180%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    text-align: center;
+    font-size: 200%;
+    margin-right: 20px;
 
 }
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-h1 {
-    margin-left: 3%;
-    margin-bottom: 20%;
-    font-size: 202%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+ 
 
 .Curiosidades {
-    background-color: white;
+    background-color: black;
     height: 80vh;
     width: 100%;
     display: flex;
-    border-bottom: 3px black solid;
+    border-bottom: 3px gold solid;
     flex-direction: column;
 }
 
@@ -113,6 +80,7 @@ h1 {
 }
 
 .Curiosidades .texto {
+    color: rgba(133, 122, 44, 1);
     height: 20%;
     width: 100%;
     display: flex;
@@ -121,11 +89,11 @@ h1 {
     flex-direction: column;
 }
 .Curiosidades .texto p{
-    color: black;
+    color: white;
     font-size: 278%;
     margin: 0;
 }
-.cardCopaDoMundo{
+ .cardCopaDoMundo{
     background-image: url(../imagens/image\ 1.png);
     background-size: 105%;
     width: 21%;
@@ -133,11 +101,12 @@ h1 {
     border-radius: 20px;
     background-position: center;
     background-repeat: no-repeat;;
-    border: 3px rgba(28, 211, 40, 1) solid;
+    border: 3px gold solid;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 10px;
+    filter: grayscale(1);
 }
 .cardCopaDoMundo p{
     visibility: hidden;
@@ -145,17 +114,22 @@ h1 {
 .cardCopaDoMundo:hover p{
     visibility: visible;
     color: white;
+    text-shadow: 
+    -1px -1px 0 #000000,  /* sombra no canto superior esquerdo */
+    1px -1px 0 #000,   /* sombra no canto superior direito */
+    -1px 1px 0 #000,   /* sombra no canto inferior esquerdo */
+    1px 1px 0 #000;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     transition: 0.5s;
     font-size: 150%;
 
 }
 .cardCopaDoMundo:hover{
-    filter: brightness(50%);
+    filter: grayscale(0);
     transition: 0.5s;
 }
 
-.cardChampions{
+ .cardChampions{
     background-image: url(../imagens/image\ 3.png);
     background-size: 105%;
     width: 21%;
@@ -164,7 +138,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     filter: grayscale(1);
-    border: 3px rgba(28, 211, 40, 1) solid;
+    border: 3px gold solid;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,8 +148,13 @@ h1 {
 }
 .cardChampions:hover p{
     visibility: visible;
-    color: black;
-    background-color: white;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #000000,  /* sombra no canto superior esquerdo */
+    1px -1px 0 #000,   /* sombra no canto superior direito */
+    -1px 1px 0 #000,   /* sombra no canto inferior esquerdo */
+    1px 1px 0 #000;
+
     font-family: Georgia, 'Times New Roman', Times, serif;
     transition: 0.5s;
     font-size: 150%;
@@ -194,7 +173,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     filter: grayscale(1);
-    border: 3px rgba(28, 211, 40, 1) solid;
+    border: 3px  gold solid;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -209,10 +188,13 @@ h1 {
 }
 .cardLibertadores:hover p{
     visibility: visible;
-    color: black;
-    background-color: white;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #000000,  /* sombra no canto superior esquerdo */
+    1px -1px 0 #000,   /* sombra no canto superior direito */
+    -1px 1px 0 #000,   /* sombra no canto inferior esquerdo */
+    1px 1px 0 #000;
     font-family: Georgia, 'Times New Roman', Times, serif;
     transition: 0.5s;
     font-size: 150%;
-}
-
+} 
