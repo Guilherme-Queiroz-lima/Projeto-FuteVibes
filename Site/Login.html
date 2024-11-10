@@ -1,52 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FuteVibes/Login</title>
+    <title>FUTEVIBES/Login</title>
     <link rel="stylesheet" href="CSS/Login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Baloo+Bhaina+2:wght@400..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Baloo+Bhaina+2:wght@400..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Abril+Fatface&family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Baloo+Bhaina+2:wght@400..800&display=swap"
+        rel="stylesheet">
 </head>
-
 <body>
-    <div class="imagemCorpo">
-    
-        <div class="ArmazenamentoLogin">
-            <div class="imagem">
-                <img src="imagens/image-removebg-preview (2).png" alt="Logo">
-
-            </div>
-            <p>Login</p>
-            <div class="inputs">
-                <p>Coloque o seu email</p>
-                <input type="text" placeholder="Coloque o seu email"> <br>
-              
-                <p>Coloque a sua senha</p>
-                <input type="password" id="input_senha" placeholder="Coloque a sua senha">
-                <button onclick="VerSenha()">
-                    Ver Senha
-                </button>
-
-              
-            
-            </div>
-    
-            <div class="botao">
-                <button onclick="Logar()">Entrar</button>
-            </div>
+    <div class="imagemFundo">
+        <div class="ParteCima">
+            <h1>FUTE<span class="vibes">VIBES</span></h1>
         </div>
+        <div class="ParteBaixo">
+            <div class="armazenamentoInformacoes">
+                <div class="header">
+                    <img src="imagens/seta.png" alt="" onclick="VoltarIndex()">
+                    <h1>Login</h1>
+                </div>
+                <div class="email">
+                    <p>Coloque o seu email</p>
+                    <input type="text" placeholder="Coloque o seu email">
+                </div>
+                <div class="senha">
+                    <p>Coloque a sua senha</p>
+                    <div class="input-senha">
+                        <input type="password" placeholder="Coloque a sua senha" id="input_senha">
+                        <img src="imagens/olho fechado.png" alt="" onclick="VerSenha()" id="imagem_olho">
+                    </div>
+                </div>
+                    <button>
+                        Login
+                    </button>
+                    <p>Ainda não tem seu login? <a href="Cadastro.html">Cadastre-se agora</a></p>
+                
+                
+            </div>
+    
+        </div>
+
     </div>
    
+       
+  
 </body>
-
 </html>
 <script>
+    function VoltarIndex(){
+         window.location.href = "index.html"
+    }
     function VerSenha(){
     var InputSenha = input_senha
+
     if(InputSenha.type=== "password"){
         InputSenha.type = "text"
+    
     }else{
         InputSenha.type = "password"
+    
     }
     }
 </script>
