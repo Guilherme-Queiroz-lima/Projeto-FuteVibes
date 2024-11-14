@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +22,7 @@
         href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Abril+Fatface&family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Baloo+Bhaina+2:wght@400..800&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <div class="imagemFundo">
         <div class="ParteCima">
@@ -43,35 +45,36 @@
                         <img src="imagens/olho fechado.png" alt="" onclick="VerSenha()" id="imagem_olho">
                     </div>
                 </div>
-                    <button>
-                        Login
-                    </button>
-                    <p>Ainda não tem seu login? <a href="Cadastro.html">Cadastre-se agora</a></p>
-                
-                
+                <button>
+                    Login
+                </button>
+                <p>Ainda não tem seu login? <a href="Cadastro.html">Cadastre-se agora</a></p>
+
+
             </div>
-    
+
         </div>
 
     </div>
-   
-       
-  
+
+
+
 </body>
+
 </html>
 <script>
-    function VoltarIndex(){
-         window.location.href = "index.html"
+    function VoltarIndex() {
+        window.location.href = "index.html"
     }
-    function VerSenha(){
-    var InputSenha = input_senha
+    function VerSenha() {
+        var InputSenha = input_senha
 
-    if(InputSenha.type=== "password"){
-        InputSenha.type = "text"
-    
-    }else{
-        InputSenha.type = "password"
-    
-    }
+        if (InputSenha.type === "password") {
+            InputSenha.type = "text"
+
+        } else {
+            InputSenha.type = "password"
+
+        }
     }
 </script>
