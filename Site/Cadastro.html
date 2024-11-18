@@ -5,8 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadatro</title>
     <link rel="stylesheet" href="CSS/Cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Baloo+Bhaina+2:wght@400..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Baloo+Bhaina+2:wght@400..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Abril+Fatface&family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Baloo+Bhaina+2:wght@400..800&display=swap"
+        rel="stylesheet">
 </head>
 <body>
+    <div class="parteCima">
+        <div class="ParteCima">
+            <h1>FUTE<span class="vibes">VIBES</span></h1>
+        </div>
+    </div>
+    <div class="parteBaixo">
+        <div class="informacoes">
+            <div class="superior">
+                <h1>Cadastro</h1>
+                <img src="imagens/casa.png" onclick="VoltarHome()">
+            </div>
+            <div class="intermediaria">
+                <h2>Coloque o seu nome </h2>
+                <input type="text" class="inputs" placeholder="Coloque o seu nome">
+                <h2>Coloque o seu e-mail </h2>
+                <input type="text" class="inputs" placeholder="Coloque o seu e-mail">
+                <h2>Crie uma senha </h2>
+                <input type="password" class="inputs" placeholder="Crie uma senha" id="input_senha">
+                <h2>Confirme sua senha</h2>
+                <input type="password" class="inputs" placeholder="Confirme sua senha" id="input_senha2">
+            </div>
+            <div class="final">
+                <button onclick="Cadastrar()">
+                    Cadastro
+                </button>
+            </div>
+        
+        </div>
+    </div>
     
 </body>
 </html>
+<script>
+    function VoltarHome(){
+        window.location.href="index.html"
+    }
+
+    function Cadastrar(){
+        Senha1 = input_senha.value
+        Senha2 = input_senha2.value
+        if(Senha1.length < 8){
+            return alert('A sua senha deve ter no minimo 8 caracteres')
+        }
+        if(Senha1 != Senha2){
+            return alert('As senhas não são iguais')
+        }
+    }
+</script>
