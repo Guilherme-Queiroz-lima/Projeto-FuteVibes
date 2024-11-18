@@ -38,10 +38,7 @@ a{
     gap: 16%;
     border-bottom: 3px gold solid;
 }
-.ParteCima img{
-    height: 100%;
-    width: 40%;
-}
+
 .links{
     display: flex;
     justify-content: center;
