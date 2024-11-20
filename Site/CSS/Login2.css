@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.ladoEsquerdo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black; /* Preto */
+    padding: 20px;
+    gap: 100px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom:2px gold solid;
+
+}
+
+.header h1 {
+    color: #d4af37; /* Dourado */
+    margin: 0;
+    font-size: 2em;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: #d4af37; /* Dourado ao passar o mouse */
+}
+
+.caixa-login {
+    width: 70%;
+    padding: 20px;
+    border: 2px solid #d4af37; /* Dourado */
+    border-radius: 8px;
+    background-color: black; /* Preto */
+}
+
+.caixa-login h1 {
+    text-align: center;
+    color: #d4af37; /* Dourado */
+    margin-bottom: 20px;
+}
+
+.caixa-login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-login label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.caixa-login input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #d4af37;
+    border-radius: 4px;
+    background-color: #fff; /* Branco */
+    color: #000; /* Preto */
+}
+
+.caixa-login button {
+    padding: 10px;
+    background-color: #d4af37; /* Dourado */
+    color: #000; /* Preto */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.caixa-login button:hover {
+    background-color: #b8860b;
+}
+
+.ladoDireito {
+    width: 50%;
+    background-image: url('../Site/imagens/Fundo\ Login.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+p{
+    text-align: center;
+}
